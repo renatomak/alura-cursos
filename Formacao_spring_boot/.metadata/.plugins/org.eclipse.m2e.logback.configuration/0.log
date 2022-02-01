@@ -25385,3 +25385,5 @@ org.eclipse.core.runtime.CoreException: Launch configuration BonusServiceTest re
 	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
 	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-01-24 08:23:26,134 [Worker-9: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-24 08:23:38,265 [Worker-4: Check for devtools] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact com.lowagie:itext:jar:4.2.2 has been relocated to com.itextpdf:itextpdf:jar:5.5.6
